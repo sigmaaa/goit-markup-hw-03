@@ -38,10 +38,6 @@ section {
 .container { 
     max-width: 1140px;
     margin: 0 auto;
-    /* padding-left:  
-    padding-right:  
-    margin-left:  
-    margin-right:   */
 } 
 
 .header {
@@ -51,7 +47,6 @@ section {
 .header-container {
     display: flex;
     align-items: center;
-    
 }
 .header-logo {
     font-family: "Raleway", serif;
@@ -149,7 +144,6 @@ section {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-
 }
 
 .benefits-list-item h3 {

@@ -46,7 +46,6 @@ section {
 } 
 
 .header {
-    background-color: var(--cornflower-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -297,7 +296,11 @@ section {
 
 .portfolio-list-item img{
     margin-bottom: -4px;
-    /* width: calc((100% - 24px * 2) / 3); */
+}
+
+.portfolio-list-item-textblock {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-list-item-headline {
@@ -307,8 +310,7 @@ section {
     line-height: 1.2;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-list-item-text {
@@ -316,14 +318,8 @@ section {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
-    margin-left: 16px;
 }
 
-.portfolio-list-item-title-container {
-    border: 1px solid var(--cornflower-color);
-    border-top: none;
-}
 .footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
@@ -336,6 +332,7 @@ section {
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -343,7 +340,6 @@ section {
     color: #4d5ae5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
 }
 

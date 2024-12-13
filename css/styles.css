@@ -18,6 +18,9 @@ ul, ol {
 	padding-left: 0;
 }
 
+img {
+    display: block;
+}
     
 body {
     font-family: "Roboto", serif;
@@ -37,16 +40,18 @@ section {
 }
 
 .container { 
-    max-width: 1140px;
+    max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 } 
 
 .header {
     background-color: var(--cornflower-color);
-    padding: 24px 156px;
+    /* padding: 24px 156px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
     display: flex;
@@ -75,6 +80,10 @@ section {
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-right: 332px;
+}
+.header-nav-item {
+    padding: 24px 0;
 }
 
 .header-nav-link {

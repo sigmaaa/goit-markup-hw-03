@@ -135,6 +135,7 @@ section {
 
 .headline {
     background-color: var(--navy-blue);
+    padding: 188px 0;
 }
 
 .headline .container {
@@ -144,6 +145,7 @@ section {
 }
 
 .headline-title {
+    max-width: 496px;
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
@@ -152,6 +154,7 @@ section {
 }
 
 .headline-button {
+    min-width: 169px;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
     border:  none;
@@ -177,6 +180,10 @@ section {
 .benefits {
     background-color: #ffffff;
 }
+
+.visually-hidden {
+    visibility: hidden;
+}
 .benefits-list {
     display: flex;
     flex-direction: row;
@@ -185,12 +192,17 @@ section {
     gap: 24px;
 }
 
+.benefits-list-item {
+    width: calc((100% - 72px) / 4); 
+}
+
 .benefits-list-item-headline {
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .benefits-list-item-text {

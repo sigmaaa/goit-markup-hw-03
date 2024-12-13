@@ -326,12 +326,6 @@ section {
     padding: 100px 0;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .footer-logo {
     display: inline-block;
     font-family: "Raleway", sans-serif;
